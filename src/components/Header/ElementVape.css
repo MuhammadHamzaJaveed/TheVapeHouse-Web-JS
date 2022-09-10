@@ -1,0 +1,75 @@
+.tophedersocials {
+    margin-right: 40px;
+    float: right;
+    display: inline-block;
+    justify-content: center;
+}
+.welcometext {
+    display: inline-block;
+    float: left;
+    margin-left: 40px;
+    text-transform: capitalize;
+}
+.headingtopbar {
+    background: #484848;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: auto;
+    padding: 10px 0 27px 0;
+    display: block;
+    color: #fff;
+}
+.socialicon {
+    display: inline-block;
+    
+    margin-left: 5px;
+    gap: 5px;
+    font-size: 14px;
+    color: #fff;
+    justify-content: center;
+
+}
+.socialicon a{
+    color: #fff;
+}
+.icons{
+    width: 16px;
+    position: relative;
+    justify-content: center;                
+}
+@media screen and (min-width: 600px) and (max-width: 799px), (min-width: 480px) and (max-width: 599px),
+(min-width: 400px) and (max-width: 479px), (min-width: 320px) and (max-width: 399px) {
+    .headingtopbar{
+        display: none;
+        
+    }
+    .icons{
+        display:none;
+    }
+    .socialicon{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px){
+    .headingtopbar{
+        display: none;
+        
+    }
+    .icons{
+        display:none;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 1000px){
+   
+    .icons,.socialicon{
+      display: none;
+    }
+    .welcometext {
+        
+        margin-left: 100px;
+      
+    }
+}
+

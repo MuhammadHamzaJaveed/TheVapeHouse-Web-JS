@@ -1,0 +1,112 @@
+
+.right-icon{ 
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 50%;
+    right: 15px;
+    background-color: white;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    z-index: 100;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.right-text{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    width: 60px;
+    height: 18px;
+    bottom: 49%;
+    right: 15px;
+    background-color: #F5801E;
+    border-radius: 50px;
+    z-index: 100;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+.right-text p{
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-icon img{
+    width: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.waicon a{
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    bottom: 20px;
+    right: 15px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    z-index: 100;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.waicon a:hover{
+    background-color: #03569c;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 1px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.my-float-arrow {
+
+    height: 20px;
+    width: 20px;
+}
+
+.arrowcon {
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    bottom: 70px;
+    right: 15px;
+    background-color: #f43127;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    z-index: 100;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.arrowcon:hover{
+    color: #f43127;
+    background-color: white;
+    border: 1px solid #f43127;
+}

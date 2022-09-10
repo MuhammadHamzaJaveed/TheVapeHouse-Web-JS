@@ -1,0 +1,127 @@
+.pro-box {
+    box-shadow: rgb(0 0 0 / 9%) 0px 3px 12px;
+}
+
+.top-div {
+    padding: 10px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    background-color: #F5801E;
+    color: white;
+    border-radius: 5px 5px 0 0;
+}
+
+.top-div .left-div {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+.top-div .center-dev1, .top-div .center-div2 {
+    width: 25%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+}
+
+.top-div .right-div {
+    width: 25%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: row;
+}
+
+.right-div .right-button {
+    background-color: #f7f7f7;
+    color: rgb(3, 86, 156);
+    border: none;
+}
+
+.right-div .right-button:hover {
+    border: 1px solid rgb(219, 214, 214);
+    background-color: #ffffff;
+
+}
+
+
+
+
+
+
+.tabs {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px
+}
+
+.tab {
+    width: 100%;
+    color: white;
+    /* overflow: hidden; */
+}
+
+.tab-label {
+    height: 70px;
+    display: -webkit-box;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 1em;
+    background: #009dc5;
+    font-weight: bold;
+    cursor: pointer;
+    /* Icon */
+}
+
+.tab-label:hover {
+    background: #07bdeb;
+}
+
+.tab-label::after {
+    content: "\276F";
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    -webkit-transition: all .35s;
+    transition: all .35s;
+
+}
+
+.tab-content {
+    max-height: 0;
+    padding: 0 1em;
+    color: black;
+    background: white;
+    -webkit-transition: all .35s;
+    transition: all .35s;
+}
+
+/* input:checked+.tab-label {
+    background: #1a252f;
+} */
+
+.order-input:checked+.tab-label::after {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.order-input:checked~.tab-content {
+    max-height: 100vh;
+    padding: 1em; 
+}
+
+.order-input
+{
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}

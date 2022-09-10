@@ -1,0 +1,363 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.all-checkout {
+    width: 100%;
+    display: flex;
+    background-color: #f4eddd;;
+    font-weight: 400;
+    color: #333;
+}
+
+.all-checkout .forms, .order-review {
+    width: 50%;
+    display: block;
+    padding: 30px;
+}
+
+.all-checkout .forms-a {
+    margin: 0 0 30px;
+    width: 100%;
+    
+}
+
+.all-checkout .forms-a h1 {
+    font-size: 20px;
+    color: #F5801E;
+    background-color: transparent;
+    text-align: center;
+    border: 2px solid #F5801E;
+    padding: 5px;
+    font-weight: 500;
+    border-radius: 30px;
+    font-family: "Segoe UI";
+}
+
+.all-checkout .forms-b {
+    width: 100%;
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.all-checkout .forms .forms-b .form-input {
+    width: 90%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+.all-checkout .forms .forms-b .inpute-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 10px;
+    color: #F5801E;
+}
+
+.all-checkout .forms .forms-b .form-input input {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    padding-left: 40px;
+    border-radius: 5px;
+    border-radius: 50px;
+    font-size: 14px;
+    
+
+}
+
+
+
+.all-checkout .forms .forms-b .form-input:focus {
+    box-shadow: 0 0 3px 0 #038eff;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+.mapstyle{
+    position: relative;
+
+}
+
+.mapstyle{
+    position: absolute;
+
+}
+
+.all-checkout .forms textarea {
+    width: 90%;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid #E4E7ED;
+    padding: 10px;
+    margin: 0px;
+}
+
+.all-checkout .forms textarea:focus {
+    box-shadow: 0 0 3px 0 #038eff;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+.all-checkout .order-review .forms-c {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    border: 2px solid #f7f7f7;
+    background-color: #f7f7f7;
+    padding: 0 30px 0 30px;
+}
+
+.order-review .forms-c .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 20px 0 20px;
+    margin: 5px 0 10px 0;
+
+}
+
+.forms-c .pro  {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.forms-c .pro .pro1, .forms-c .pro .pro3 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.forms-c .pro .pro2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.forms-c .pro .pro2 .pro2_inner{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 15px;
+}
+
+
+.forms-c .pro .pro1 .left-div, .forms-c .pro .pro2 .pro2_inner .left-div{
+    width: 70%;
+    text-align: left;
+}
+
+.forms-c .pro .pro1 .right-div, .forms-c .pro .pro2 .pro2_inner .right-div{
+    width: 30%;
+    text-align: right;
+}
+
+.forms-c .pro .pro3 .left-div{
+    width: 50%;
+    text-align: left;
+}
+
+.forms-c .pro .pro3 .right-div{
+    width: 50%;
+    text-align: right;
+}
+
+
+
+
+.order-review .forms-c .text input {
+    margin-right: 10px;
+}
+
+.order-review .forms-c .text p {
+    font-size: 14px;
+}
+.order-review .forms-c .text .checkboclinks{
+    color: #038eff;
+}
+.order-review .forms-c .text .checkboclinks:hover{
+    color: #F5801E;
+}
+
+.order-review .forms-c .place-order {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.order-review .forms-c .place-order button {
+    width: 90%;
+    height: 40px;
+    background-color: #F5801E;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+}
+
+.order-review .forms-c .btns2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.order-review .forms-c .btns2 .cart-btn, .shop-btn {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.order-review .forms-c .btns2 .cart-btn button, .shop-btn button {
+    width:100%;
+    height: 40px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #F5801E;
+    color: #F5801E;
+    border-radius: 30px;
+    cursor: pointer;
+    
+}
+.order-review .forms-c .place-order button:hover, .order-review .forms-c .btns2 button:hover {
+    background-color: #F1941b;
+    border: 1px solid #F1941b;
+    color: white;
+}
+
+@media screen and (max-width: 1150px) {
+
+    .all-checkout {
+        width: 100%;
+    }
+    .all-checkout .forms, .order-review {
+        width: 50%;
+        padding: 40px;
+    }
+    .order-review .forms-c .place-order button {
+        width: 90%;
+    }
+    .order-review .forms-c .btns2 .cart-btn button, .shop-btn button {
+        width: 100%;
+        height: 40px;
+        font-size: 12px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+
+    .all-checkout {
+        width: 100%;
+        display: block;
+    }
+
+    .all-checkout .forms, .order-review {
+        width: 100%;
+        display: block;
+        padding: 40px;
+    }
+
+    .all-checkout .forms-a {
+        margin: 0 0 20px;
+    }
+
+    .order-review .forms-c .place-order button {
+        width: 90%;
+    }
+    
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .all-checkout {
+        width: 100%;
+        display: block;
+
+
+    }
+
+    .all-checkout .forms, .order-review {
+        width: 100%;
+        display: block;
+        padding: 20px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .all-checkout {
+        width: 100%;
+        display: block;
+    }
+
+    .all-checkout .forms, .order-review {
+        width: 100%;
+        display: block;
+        padding: 10px;
+    }
+
+    .all-checkout .forms-a h1 {
+        font-size: 18px;
+        border: 1px solid #F5801E;
+        padding: 5px;
+    }
+    .all-checkout .order-review .forms-c {
+        padding: 0;
+    }
+    .forms-c .pro  {
+        margin: 0;
+    }
+
+    .order-review .forms-c .place-order button {
+        width: 90%;
+    }
+
+    .order-review .forms-c .place-order button {
+        width: 100%;
+        height: 40px;
+    }
+
+    .order-review .forms-c .btns2 .cart-btn button, .shop-btn button {
+        width: 100%;
+        height: 40px;
+        font-size: 12px;
+        padding: 10px;
+    }
+  
+}

@@ -1,0 +1,512 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.p-detail {
+    width: 100%;
+    background-color: #f7f7f7;
+    padding: 40px 20px;
+    display: flex;
+}
+.p-detai {
+    display: flex;
+    border: 1px solid;
+    height: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 1px;
+    cursor: pointer;
+}
+.p-img img{
+    width:50px;
+    height:70px;
+}
+
+.p-picture {
+    width: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.p-picture img {
+    width: 50%;
+    transition: transform .2s;
+    margin: 0 auto;
+    padding: 20px;
+    height: auto;
+}
+
+.p-picture img:hover {
+    transform: scale(1.2);
+    cursor: zoom-in;
+}
+
+.p-disc {
+    width: 50%;
+    padding: 40px 0 40px 40px;
+}
+
+.p-disc h2 {
+    text-transform: capitalize !important;
+    font-size: 18px;
+}
+
+.p-disc h3 {
+    display: inline-block;
+    font-size: 24px;
+    margin: 10px 0 10px 0;
+    color: #F5801E;
+    display: block;
+
+}
+
+.p-disc h3 .oldPrice {
+    font-size: 16px;
+    color: #8D99AE;
+    margin-left: 10px;
+}
+
+.p-disc .product-name {
+    display: inline-block;
+    font-size: 24px;
+    margin: 10px 0 10px 0;
+    display: block;
+}
+
+.cart-size {
+    display: inline-block;
+    font-size: 14px;
+    margin: 10px 0 10px 0;
+    display: block;
+}
+
+.qty {
+    display: flex;
+    align-items: center;
+
+}
+
+.qty p {
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.qty .qty-main {
+    display: flex;
+    height: 28px;
+    width: 100px;
+    margin: 20px;
+    margin-left: 0;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.qty-first {
+
+
+    width: 30px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.qty-main .plus-a {
+    background-color: #ebebeb;
+    border-radius: 5px;
+}
+
+.qty-main .minas-a {
+    background-color: #ebebeb;
+    border-radius: 5px;
+}
+
+.qty-main .plus-a:hover {
+    background-color: white;
+}
+
+.qty-main .minas-a:hover {
+    background-color: white;
+}
+
+.qty-main a {
+    width: 25%;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    background-color: #FFF;
+    padding: 6px 0 6px 0;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.qty .btn button {
+    background-color: #F5801E;
+    color: white;
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 28px;
+    border-width: 0;
+}
+
+.qty .btn button:hover {
+    background-color: #F5801E;
+    color: white;
+}
+
+.p-disc .review {
+    margin-top: 20px;
+    color: #F5801E;
+    font-size: medium;
+    display: flex;
+
+
+}
+
+.p-disc .review a {
+    font-size: 12px;
+    color: #39c;
+}
+
+.p-disc .review a:hover {
+    color: #F5801E;
+}
+
+.p-disc .favorite {
+    margin-top: 20px;
+    color: #39c;
+    font-size: medium;
+    display: flex;
+}
+
+.p-disc .favorite a {
+    font-size: 12px;
+    color: #39c;
+}
+
+.p-disc .favorite:hover {
+    color: #F5801E;
+}
+
+.p-disc .favorite a:hover {
+    color: #F5801E;
+}
+
+.p-disc .category {
+    margin-top: 20px;
+    font-size: 14px;
+    display: flex;
+}
+
+.p-disc .category a {
+    font-size: 12px;
+    color: #39c;
+}
+
+.p-disc .category a:hover {
+    color:#F5801E;
+}
+
+.p-disc .share {
+    margin-top: 20px;
+    font-size: 14px;
+    display: flex;
+}
+
+.p-disc .share a {
+    font-size: 18px;
+    color: #39c;
+}
+
+.p-disc .share a:hover {
+    color: #F5801E;
+}
+
+.p-disc .btn1 {
+    width: 100%;
+    margin-top: 50px;
+    font-size: 14px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.p-disc .btn1 .reviews-btns  {
+    background-color: #F5801E;
+    color: white;
+    width: auto;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 28px;
+    line-height: 38px;
+    border-width: 0;
+    padding: 0 20px;
+    margin-right: 20px;
+}
+.p-disc .btn1 .reviews-btns2{
+    background-color: #F5801E;
+    color: white;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 38px;
+    cursor: pointer;
+    border-radius: 28px;
+    border-width: 0;
+    padding: 0 20px;
+    margin-top: 10px;
+}
+
+.p-disc .btn1 button:hover {
+    background-color: #F5801E;
+    color: white;
+}
+
+.btn1 .open-review {
+    position: absolute;
+}
+
+.related-product {
+    padding: 0 20px 0 20px;
+    background-color: #f7f7f7;
+
+
+}
+
+.related-product h1 {
+    width: 100%;
+    height: 35px;
+    background-color: #484848;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+
+}
+
+.product-main {
+    width: 100%;
+    padding-top: 20px;
+    font-size: 2.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #F5801E;
+    background-color: white;
+
+}
+
+.product_container {
+    width: 25%;
+    margin: 20px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.product_container:hover {
+    background-color: #fffbf1;
+    border: 1px solid;
+    color: #F5801E;
+}
+
+
+.product_container img {
+    width: 100%;
+}
+
+.product_container p {
+    font-size: 14px;
+    margin: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product_container h6 {
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 1536px) and (max-width: 1920px) {
+    .p-picture img {
+        width: 50%;
+        padding: 5px;
+    }
+}
+
+@media screen and (min-width: 1399px) and (max-width: 1535px) {
+    .p-picture img {
+        width: 65%;
+        padding: 10px;
+
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1398px) {
+    .p-picture img {
+        width: 70%;
+        padding: 10px;
+
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+    .p-picture img {
+        width: 80%;
+        padding: 0px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1023px) {
+    .p-picture img {
+        width: 90%;
+        padding: 17px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 799px) {
+    .p-detail {
+        display: block;
+    }
+
+    .p-picture {
+        width: 100%;
+    }
+
+    .p-picture img {
+        width: 100%;
+        height: 500px;
+    }
+
+    .p-disc {
+        width: 100%;
+        padding: 40px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 599px) {
+    .p-detail {
+        display: block;
+    }
+
+    .p-picture {
+        width: 100%;
+    }
+
+    .p-picture img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .p-disc {
+        width: 100%;
+        padding: 40px;
+    }
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 479px) {
+    .p-detail {
+        display: block;
+    }
+
+    .p-picture {
+        width: 100%;
+    }
+
+    .p-picture img {
+        width: 100%;
+        height: 350px;
+    }
+
+    .p-disc {
+        width: 100%;
+        padding: 40px 0 0 0;
+    }
+
+    .qty .btn button {
+        font-size: 12px;
+        height: 40px;
+
+    }
+
+    .p-disc .btn1 {
+        font-size: 12px;
+        display: flex;
+    }
+
+    .p-disc .btn1 .reviews-btns {
+        height: 40px;
+        margin-bottom: 10px;
+    }
+    .p-disc .btn1 .reviews-btns2 {
+        height: 40px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 399px) {
+    .p-detail {
+        display: block;
+    }
+
+    .p-picture {
+        width: 100%;
+    }
+
+    .p-picture img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .p-disc {
+        width: 100%;
+        padding: 40px 0 0 0;
+    }
+
+    .qty .btn button {
+        font-size: 12px;
+        height: 35px;
+
+    }
+
+    .p-disc .btn1 {
+        margin-top: 30px;
+        font-size: 18px;
+        display: flex;
+    }
+
+    .p-disc .btn1 .reviews-btns {
+        height: 35px;
+        padding: 0 10px;
+    }
+    .p-disc .btn1 .reviews-btns2 {
+        height: 35px;
+        padding: 0 10px;
+    }
+}

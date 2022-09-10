@@ -1,0 +1,425 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI";
+
+}
+
+/* .signup {
+    width: 100%;
+    background-color:#ebb576;
+    display: flex;
+    flex-direction: row;
+}
+
+.signup div {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebb576;
+    margin: 10px;
+
+}
+
+.signup h2 {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Segoe UI";
+}
+
+.signup .signup-input {
+    width: 100%;
+    height: 4rem;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.signup .signup-input:focus {
+    outline: none;
+}
+
+.signup button {
+    width: 40%;
+    height: 4rem;
+    padding: 10px;
+    background-color: #d8232a;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 130px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 20px;
+    border-width: 0;
+    text-transform: uppercase;
+} */
+
+/* .signup button:hover {
+    background-color: #df5055;
+} */
+
+
+.footer-bgimg {
+    width: 100%;
+    height: auto;
+    background-color: #484848;
+}
+
+.footer-bgimg .main-footer {
+    max-width: 1200px;
+    padding: 50px 0 0;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main-footer h3 {
+    font-size: 20px;
+    color: white;
+    margin: 0px 0px 30px;
+    font-family: inherit;
+}
+
+
+.main-footer p {
+    font-size: 14px;
+    color: #c8c9cc;
+    ;
+}
+
+.fc1-link {
+    margin-top: 20px;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+}
+
+.fc1-link .map {
+    font-size: 20px;
+    margin-right: 10px;
+    color: white;
+}
+
+.fc1-link li a {
+    color: #c8c9cc;
+}
+.ico{
+    width: 16px;
+    position: relative;
+    justify-content: center;                
+}
+
+
+
+
+
+.main-footer div {
+    width: 25%;
+    padding: 20px;
+
+}
+
+.main-footer div ul li {
+    margin: 10px;
+
+}
+
+.main-footer div ul li a {
+    FONT-SIZE: 12PX;
+    color: #c8c9cc;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.main-footer a:hover {
+    color: #03569c;
+}
+
+.main-footer div ul li .track-myorder:hover {
+    cursor: pointer;
+    color: #03569c;
+}
+
+.open-ordertrack {
+    position: absolute;
+}
+
+.social {
+    font-size: 24px;
+    padding: 0;
+}
+
+.facebook {
+    margin-right: 10px;
+    color: #3b5998;
+}
+
+.instagram {
+    margin-right: 10px;
+    color: #F5801E;
+}
+
+.youtube {
+    margin-right: 10px;
+    color: #FF0000;
+}
+
+.social img {
+    width: 100px;
+    margin: 10px 10px 0 0;
+}
+
+.copy-rights {
+    width: 100%;
+    height: 5rem;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    font-size: 12px;
+    background-color: black;
+}
+
+.copy-rights p {
+    color: #c8c9cc;
+}
+.QuickLinks p{
+    font-size: 12px;
+}
+
+.copy-rights p>a {
+    color: white;
+    font-weight: bold;
+}
+
+.copy-rights a:hover {
+    color: #03569c;
+}
+
+.toggletrack-order {
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: #484848;
+    opacity: 0.8;
+
+}
+
+@media screen and (max-width: 990px) {
+    .signup {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .signup div {
+        width: 50%;
+    }
+
+    .main-footer div {
+        width: 50%;
+
+    }
+
+    .social {
+        font-size: 18px;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .signup {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .signup h2 {
+
+        font-size: 18px;
+    }
+    .ico{
+        width: 10px;
+        position: relative;
+        margin-left: 16px;
+        justify-content: center; 
+
+    }
+
+    .signup div {
+        width: 70%;
+    }
+
+    .main-footer div {
+        width: 50%;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .social {
+        font-size: 16px;
+        left: 0;
+        padding: 0 10px 10px 10px;
+    }
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 799px) {
+    .footer-bgimg .main-footer {
+        max-width: 1200px;
+        padding: 50px 50px;
+    }
+    .main-footer h3 {
+        font-size: 14px;
+    }
+    .ico{
+        width: 10px;
+        position: relative;
+        margin-left: 16px;
+        justify-content: center; 
+
+    }
+    .information{
+        display: none;
+    }
+
+    .main-footer p {
+        font-size: 14px;
+    }
+
+    .main-footer div ul li a {
+        font-size: 14px;
+
+    }
+
+    .main-footer div ul li {
+        font-size: 18px;
+        margin: 10px 0px 0px 0;
+    }
+
+    .fc1-link {
+        margin-top: 10px;
+    }
+
+    .social {
+        font-size: 20px;
+        left: 0;
+        padding: 0;
+    }
+
+    .copy-rights p {
+        font-size: 13px;
+        color: #c8c9cc;
+    }
+
+    .copy-rights {
+        padding: 0;
+    }
+
+    .social img {
+        width: 80px;
+        margin: 10px 5px 0 0;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 499px) {
+    .footer-bgimg .main-footer {
+        max-width: 1200px;
+        padding: 50px 20px;
+    }
+    .main-footer div {
+        width: 50%;
+        padding: 0px 10px 20px 10px;
+    }
+    .ico{
+     margin-left: 16px;
+    
+    }
+    .information{
+        display: none;
+    }
+
+    .main-footer h3 {
+        font-size: 14px;
+    }
+
+    .main-footer p {
+        font-size: 13px;
+    }
+
+    .main-footer div ul li a {
+        font-size: 12px;
+
+    }
+
+    .main-footer div ul li {
+        font-size: 18px;
+        margin: 10px 0px 0px 0;
+    }
+
+    .fc1-link {
+        margin-top: 10px;
+    }
+
+    .social {
+        font-size: 18px;
+        left: 0;
+        padding: 0;
+    }
+
+    .copy-rights p {
+        font-size: 12px;
+        color: #c8c9cc;
+    }
+
+    .copy-rights {
+        padding: 0;
+    }
+
+    .social img {
+        width: 70px;
+        margin: 10px 5px 0 0;
+    }
+}
+
+.marginleft{
+    display: flex;
+    flex-direction: row;
+    margin-left: -5px;
+}
+.fa{
+    width: 20px;
+    height: 15px;
+}
+.information h1{
+    font-family: Montserrat, Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+    font-weight: 400;
+}
+.paragraph{
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+
+
+.footlogo{
+    height: 150px;
+}
+ 
+

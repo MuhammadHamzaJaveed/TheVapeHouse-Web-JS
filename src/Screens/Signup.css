@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+
+.login-signup{
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: row;
+    background-color: #f7f7f7;
+}
+
+.login-ac, .signup-ac {
+    width: 50%;
+}
+
+.signup-ac .forms-a, .login-ac .login-a {
+    text-align: center;
+    width: 80%;
+    font-size: 0.8vw;
+    margin: auto;
+    background-color: #F5801E;
+    color: white;
+}
+
+.signup-ac .forms-b, .login-ac .login-b {
+    width: 70%;
+   margin: auto;
+   font-size: 1vw;
+}
+
+.signup-ac .forms-b input, .login-ac .login-b input{
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #E4E7ED;
+}
+.forget1{
+    padding-left: 10px;
+    font-size: 12px;
+    color: #F5801E;
+}
+.forget1:hover{
+    color: #f1941b;
+}
+
+.forms-b input:focus, .login-b input:focus {
+    box-shadow: 0 0 5px 0 #F5801E;
+    outline: none;
+    background-color: white;
+}
+
+.forms-b h3, .login-b h3 {
+    font-size: 1vw;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.signup-ac .forms-b .news-letters{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    margin-left: 5px;
+}
+  
+.forms-b .getuserdata{
+    display: none;
+}
+
+.signup-ac .forms-b .news-letters .check-box{
+    width: 15px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #E4E7ED;
+}
+
+.signup-ac .btn, .login-ac .login-btn {
+    text-align: center;
+    margin: 30px;
+}
+
+.signup-ac .btn button, .login-ac .login-btn button{
+    background-color: #F5801E;
+    color: white;
+    width: auto;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    padding: 0 20px 0 20px;
+    font-size: 0.8vw;
+
+    
+}
+
+.signup-ac .btn button:hover, .login-ac .login-btn button:hover {
+    background-color: #f1941b;
+    border: 1px solid #f1941b;
+    color: white;
+}
+
+.btn .open-otpmodal{
+    position: absolute;
+}
+@media screen and (max-width: 990px) {
+    .login-signup{
+        width: 100%;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .login-ac, .signup-ac {
+        width: 100%;
+    }
+
+    .signup-ac .forms-a, .login-ac .login-a {
+        width: 100%;
+        font-size: 1vw;
+        padding: 5px;
+
+    }
+    .signup-ac .forms-b input, .login-ac .login-b input{
+        padding: 10px;
+    }
+    .forms-b h3, .login-b h3 {
+        font-size: 1.5vw;
+    }
+    .signup-ac .btn button, .login-ac .login-btn button{
+        padding: 0 20px 0 20px;
+        width: auto;
+        font-size: 1.3vw;
+    }
+   
+}
+
+
+@media screen and (max-width: 768px) {
+    .login-signup{
+        width: 100%;
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+    .login-ac, .signup-ac {
+        width: 100%;
+    }
+
+    .signup-ac .forms-a, .login-ac .login-a {
+        width: 100%;
+        font-size: 1.5vw;
+        padding: 5px;
+
+    }
+    .signup-ac .forms-b input, .login-ac .login-b input{
+        padding: 8px;
+    }
+    .forms-b h3, .login-b h3 {
+        font-size: 2vw;
+    }
+    .signup-ac .btn button, .login-ac .login-btn button{
+        padding: 0 15px 0 15px;
+        width: auto;
+        font-size: 1.5vw;
+    }
+   
+}
+
+@media screen and (max-width: 480px) {
+    .login-signup{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .login-ac, .signup-ac {
+        width: 100%;
+    }
+    .signup-ac .forms-a, .login-ac .login-a {
+        width: 100%;
+        font-size: 2vw;
+        padding: 5px;
+
+    }
+    .signup-ac .forms-b, .login-ac .login-b {
+        width: 80%;
+    }
+    
+    .signup-ac .forms-b input, .login-ac .login-b input{
+        padding: 6px;
+    }
+    .forms-b h3, .login-b h3 {
+        font-size: 3vw;
+    }
+    .signup-ac .btn button, .login-ac .login-btn button{
+        padding: 0 20px 0 20px;
+        width: auto;
+        font-size: 2.5vw;
+    }
+    
+}
+

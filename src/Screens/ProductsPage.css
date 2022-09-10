@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.productspage{
+    width: 100%;
+    background-color: #f4eddd;
+    display: flex;
+}
+.productspage .slider-bar{
+    width: 20%;
+    padding-top: 50px;
+    font: 400 1px/1.35 Montserrat, Helvetica Neue, Verdana, Arial, sans-serif;
+    padding-left: 20px;
+   
+}
+
+.slider-bar .slidebar_conatainer{    
+    width: 238px;
+    background-color: white;
+    font-family: "Segoe UI";
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+    color: rgba(69, 74, 84, 0.7);
+    position: relative;
+}  
+.slidebar_conatainer .menu_container2{
+    display: flex;
+    flex-direction: row;
+}
+.slidebar_conatainer p{
+    width: 100%;
+    font-family: "Segoe UI";
+    font-size: 12px;
+    font-weight: 500;
+    padding: 8px 8px 8px 10px;
+    color: rgba(69, 74, 84, 0.7);
+    border-bottom: 1px solid rgba(69, 74, 84, 0.7);
+
+}
+.slidebar_conatainer p:hover{
+    color: white;
+    background-color:  #F5801E;
+    cursor: pointer;
+}
+.slidebar_conatainer .sab_menu2{
+    position: absolute;
+    width: 200px;
+    background-color: white;
+    right: -200px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+    z-index: 1;
+}
+
+.productspage .products{
+    width: 80%;
+    padding-top: 50px;
+}
+
+.products h1{
+    background-color: #484848;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding: 10px 0 10px 0;
+    display: block;
+    text-transform: uppercase;
+  
+}
+
+@media screen and (min-width: 320px) and (max-width: 1400px){
+    .productspage .slider-bar {
+        display: none;
+    }
+    .productspage .products {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 799px){
+    .productspage .slider-bar{
+        width: 0%;   
+        padding: 0;
+    }
+    
+    .slider-bar .slidebar_conatainer{    
+        display: none;
+    }
+    .productspage .products{
+        width: 100%;
+    }
+}

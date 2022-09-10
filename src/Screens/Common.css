@@ -1,0 +1,314 @@
+* {
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+.card-title{
+    font-size: 50px;
+}
+.card-text{
+    font-size: 20px;
+}
+#SecRow{
+    background-image: url("https://thevapehouse.pk/Images/Banners/about2.jpg");
+    background-size: cover;
+}
+
+
+.aboutus {
+    background-color: #f4eddd;
+    justify-content: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.aboutus img {
+    width: 100%
+}
+
+.aboutus .aboutus-p {
+    /* margin: 20px 20px; */
+    font-size: 14px;
+    padding: 10px 25% 10px 25%;
+    text-align: justify;
+}
+
+/* About Us, Privacy Policy, Terms & Conditions, Delivery Information css */
+.mainhadding {
+    background-color: #f4eddd;
+    padding: 40px 15% 40px 15%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.mainhadding h1 {
+    text-align: center;
+    background-color: #F5801E;
+    color: white;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+
+.mainhadding li {
+    text-align: justify;
+    margin: 20px;
+    font-size: 14px;
+    list-style-type: none;
+}
+
+.bullet li {
+    list-style-type: circle;
+
+}
+
+
+/* Contact Us CSS */
+
+.alldata {
+    width: 100%;
+    /* margin: 30px; */
+    box-sizing: border-box;
+    display: flex;
+
+
+}
+
+.alldata .forms {
+    width: 67%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.alldata .forms-a {
+    text-align: center;
+    width: 100%;
+    font-size: 1vw;
+    margin: 20px;
+
+
+}
+
+.alldata .forms-b {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.forms .forms-b input {
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #E4E7ED;
+    font-size: 14px;
+}
+
+.forms-b input:focus {
+    box-shadow: 0 0 3px 0 #038eff;
+    border: #F5801E;
+    outline: none;
+    
+}
+
+.forms textarea {
+    width: 90%;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid #E4E7ED;
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px;
+}
+
+.forms textarea:focus {
+    box-shadow: 0 0 3px 0 #038eff;
+    border: #F5801E;
+    outline: none;
+
+}
+
+.forms .btn {
+    text-align: center;
+    margin: 30px;
+
+}
+
+.forms .btn button {
+    background-color: #F5801E;
+    color: white;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+}
+
+.alldata .info {
+    width: 33%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 50px 20px 50px 20px;
+    display: block;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: white;
+
+}
+
+
+.info h1 {
+    color: solid black;
+    font-size: 2vw;
+    margin-bottom: 5px;
+    margin-top: -25px;
+}
+
+.info h2 {
+    color: red;
+    font-size: 1.5vw;
+    margin: 10px 0 3px 0;
+}
+
+/* .info h3 {
+
+    font-size: 1.2vw;
+    margin: 20px 0 3px 0;
+} */
+
+.info p {
+
+    font-size: 1vw;
+    color:black;
+    margin-bottom: 2px;
+
+}
+
+.google-map {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0 0 0;
+}
+.google-map .google-map1{
+    width: 100%;
+
+}
+.google-map .google-map2{
+    width: 100%;
+    
+}
+
+
+@media screen and (max-width: 1080px), (max-width: 768px), (max-width: 480px) {
+    .alldata {
+        width: 100%;
+        /* padding: 10px; */
+        margin: 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .alldata .forms {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .alldata .forms-a {
+        text-align: center;
+        width: 100%;
+        font-size: 2vw;
+        margin: 20px;
+    }
+
+    .alldata .info {
+        width: 100%;
+        padding: 50px;
+        display: block;
+        margin: 20px 0 0 0;
+    }
+
+    .alldata .forms-b {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+
+    .forms .forms-b input, .forms .forms-b textarea {
+        width: 90%;
+        margin: 5px;
+    }
+
+    .info h1 {
+        font-size: 4vw;
+    }
+
+    .info h2 {
+        font-size: 14px;
+    }
+
+    .info h3 {
+        font-size: 16px;
+    }
+
+    .info p {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 799px) {
+    .aboutus .aboutus-p {
+        padding: 10px 15% 10px 15%;
+    }
+
+    .google-map {
+        display: flex;
+        flex-direction: column;
+    }
+    .google-map .google-map1{
+        padding-right: 0;
+        margin-bottom: 15px;
+    }
+    .google-map .google-map2{
+        padding-left: 0;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .aboutus .aboutus-p {
+        padding: 10px 10% 10px 10%;
+    }
+
+    .google-map {
+        display: flex;
+        flex-direction: column;
+    }
+    .google-map .google-map1{
+        padding-right: 0;
+        margin-bottom: 15px;
+    }
+    .google-map .google-map2{
+        padding-left: 0;
+        margin-top: 15px;
+    }
+}
+.pakheading {
+    color: #069342;
+    font-family: Roboto,sans-serif;
+    font-size: 52px;
+    font-weight: 600;
+    text-align: center;
+}
+.textt{
+        font-size: 13px;
+}

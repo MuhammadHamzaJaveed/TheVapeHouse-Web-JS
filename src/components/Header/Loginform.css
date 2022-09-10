@@ -1,0 +1,92 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+#logincross{
+  width: 18px;  
+}
+
+.login-Background{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    padding: 8% 15% 0 60%;
+}
+
+.login-form{
+    width: 280px;
+    height: 260px;
+    background: #7d7d7d;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: relative;
+    border-radius: 10px;
+    padding: 15px;
+    border-color: #F5801E;
+    z-index: 1;
+}
+.login-form .cancel-btn{
+    position: absolute;
+    right: 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+   margin-top: -7px;
+}
+.login-form .Welcome, .forget{
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.login-form .Welcome{
+    margin: 15px 0 15px 0;
+
+}
+.login-form .forget{
+    text-align: left;
+    margin: 20px 0 20px 0;
+    color:white;
+}
+.login-form .forget:hover{
+    color: red;
+}
+
+.login-form .register-here .register-link{
+    color: blue;
+}
+.login-form .register-here .register-link:hover{
+    color: rgb(55, 55, 255);
+}
+
+.login-form input{
+    height: 30px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    outline: 0;
+}
+.login-form .login-btn{
+    height: 30px;
+    background-color: #F5801E;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    color: white;
+}
+
+.login-form .login-btn:hover{
+    background-color: #f18145;
+
+}
